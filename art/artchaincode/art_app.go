@@ -1,5 +1,5 @@
 /******************************************************************
-Copyright IT People Corp. 2017 All Rights Reserved.
+Copyright IT People Corp. 2018 All Rights Reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@ limitations under the License.
 ******************************************************************/
 
 ///////////////////////////////////////////////////////////////////////
-// Author : IT People - Mohan - table API for v1.0
+// Author : IT People - Mohan
 // Enable CouchDb as the database..
 // Purpose: Explore the Hyperledger/fabric and understand
 // how to write an chain code, application/chain code boundaries
@@ -32,8 +32,8 @@ import (
 	"fmt"
 	"itpUtils"
 	"os"
-        "net/http"
-        "io"
+  "net/http"
+  "io"
 	"runtime"
 	"strconv"
 	"time"
@@ -319,7 +319,7 @@ func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface) pb.Response {
 	fmt.Println("[Trade and Auction Application] Init")
 	var err error
         // TODO: could we rather save the hash of the picture on the BC ?
-	for k, v := range PictureMap { 
+	for k, v := range PictureMap {
     		fmt.Printf("\n Downloading Image '%s' from URL:  %s", k, v)
 	        err = downloadFile(k, v)
 	        if err != nil {

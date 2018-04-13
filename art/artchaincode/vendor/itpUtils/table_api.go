@@ -1,5 +1,5 @@
 /******************************************************************
-Copyright IT People Corp. 2017 All Rights Reserved.
+Copyright IT People Corp. 2018 All Rights Reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@ limitations under the License.
 ******************************************************************/
 
 ///////////////////////////////////////////////////////////////////////
-// Author : IT People - Mohan - table API for v1.0
+// Author : IT People - Mohan - table API for v1.1.0
 // Enable CouchDb as the database..
 // Purpose: Explore the Hyperledger/fabric and understand
 // how to write an chain code, application/chain code boundaries
